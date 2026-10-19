@@ -1,0 +1,23 @@
+[mods]
+modId="mythickatana"
+version="${file.jarVersion}"
+displayName="Mythic Katana"
+credits="EnderDevelopment"
+authors="EnderDevelopment"
+description='''
+A custom Mythic Katana sword with unique mechanics.
+'''
+
+[[dependencies.mythickatana]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mythickatana]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.4,1.21)"
+ordering="NONE"
+side="BOTH"

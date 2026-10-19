@@ -1,0 +1,3 @@
+rootProject.name = 'mythic_katana'
+include 'fabric'
+project(':fabric').projectDir = file('src/main/resources/fabric')

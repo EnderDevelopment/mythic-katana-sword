@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mythic_katana",
+  "version": "${version}",
+  "name": "Mythic Katana",
+  "description": "A dual-element mythic katana sword with unique mechanics.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.mythickatana.MythicKatanaMod"
+    ]
+  },
+  "mixins": [
+    "mixins.mythic_katana.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.4"
+  }
+}
